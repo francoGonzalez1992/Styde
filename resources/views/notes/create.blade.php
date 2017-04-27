@@ -3,7 +3,7 @@
 @section('content')
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
-		<h1>Create a note</h1>
+		<h1>Crear una nota</h1>
 		@include('partials/errors')
 		<form action="{{ url('notes') }}" method="post" class="form">
 			{!!csrf_field()!!}
