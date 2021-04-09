@@ -19,6 +19,7 @@
 | loading any of our classes later on. It feels great to relax.
 | hola
     como estas
+    bien
 */ 
 
 require __DIR__.'/../bootstrap/autoload.php';
